@@ -34,6 +34,79 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 Sed bibendum sem non dictum volutpat. Duis ut lorem non est congue placerat.
                 </p>
                 <br />
+                <h3 style={styles.indent}>Examples:</h3>
+                <ul>
+                    <li style={styles.row}>
+                        <p>• Project #1</p>
+                        <p>
+                            [{' '}
+                            <a
+                                href="http://mattyp.au"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                               WEBSITE #1
+                            </a>{' '}
+                            ]
+                        </p>
+                    </li>
+                    <li style={styles.row}>
+                        <p>• PROJECT #2</p>
+                        <p>
+                            [{' '}
+                            <a
+                                href="http://mattyp.au"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                WEBSITE #2
+                            </a>{' '}
+                            ]
+                        </p>
+                    </li>
+                    <li style={styles.row}>
+                        <p>• PROJECT #3</p>
+                        <p>
+                            [{' '}
+                            <a
+                                href="http://mattyp.au"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                 WEBSITE #3
+                            </a>{' '}
+                            ]
+                        </p>
+                    </li>
+                    <li style={styles.row}>
+                        <p>• PROJECT #4</p>
+                        <p>
+                            [{' '}
+                            <a
+                                href="http://mattyp.au"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                               WEBSITE #4
+                            </a>{' '}
+                            ]
+                        </p>
+                    </li>
+                    <li style={styles.row}>
+                        <p>• PROJECT #5</p>
+                        <p>
+                            [{' '}
+                            <a
+                                href="http://mattyp.au"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                 WEBSITE #5
+                            </a>{' '}
+                            ]
+                        </p>
+                    </li>
+                </ul>
             </div>
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
@@ -62,6 +135,79 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 Sed bibendum sem non dictum volutpat. Duis ut lorem non est congue placerat.
                 </p>
                 <br />
+                <h3 style={styles.indent}>Examples:</h3>
+                <ul>
+                    <li style={styles.row}>
+                        <p>• Project #1</p>
+                        <p>
+                            [{' '}
+                            <a
+                                href="http://mattyp.au"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                G DESIGN #1
+                            </a>{' '}
+                            ]
+                        </p>
+                    </li>
+                    <li style={styles.row}>
+                        <p>• PROJECT #2</p>
+                        <p>
+                            [{' '}
+                            <a
+                                href="http://mattyp.au"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                               G DESIGN #2
+                            </a>{' '}
+                            ]
+                        </p>
+                    </li>
+                    <li style={styles.row}>
+                        <p>• PROJECT #3</p>
+                        <p>
+                            [{' '}
+                            <a
+                                href="http://mattyp.au"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                G DESIGN #3
+                            </a>{' '}
+                            ]
+                        </p>
+                    </li>
+                    <li style={styles.row}>
+                        <p>• PROJECT #4</p>
+                        <p>
+                            [{' '}
+                            <a
+                                href="http://mattyp.au"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                             G DESIGN #4
+                            </a>{' '}
+                            ]
+                        </p>
+                    </li>
+                    <li style={styles.row}>
+                        <p>• PROJECT #5</p>
+                        <p>
+                            [{' '}
+                            <a
+                                href="http://mattyp.au"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                               G DESIGN #5
+                            </a>{' '}
+                            ]
+                        </p>
+                    </li>
+                </ul>
             </div>
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
@@ -101,7 +247,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                WEBSITE DESIGN
+                                BRAND #1
                             </a>{' '}
                             ]
                         </p>
@@ -115,7 +261,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                WEB APP DEVELOPMENT
+                                BRAND #2
                             </a>{' '}
                             ]
                         </p>
@@ -129,7 +275,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                BRAND IDENTITY
+                                 BRAND #3
                             </a>{' '}
                             ]
                         </p>
@@ -143,7 +289,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                              MARKETING CAMPAIGN
+                                BRAND #4
                             </a>{' '}
                             ]
                         </p>
@@ -157,7 +303,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                WEBSITE DESIGN
+                                 BRAND #5
                             </a>{' '}
                             ]
                         </p>
