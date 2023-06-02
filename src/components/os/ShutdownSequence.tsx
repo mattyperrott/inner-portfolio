@@ -59,15 +59,21 @@ const ShutdownSequence: React.FC<ShutdownSequenceProps> = ({
     (HHOS01/13:200:60099) [SOCKET_FAILED_TO_RESPOND] Connection Refused: Reconnecting... [${getTime()}:08]
     (HHOS01/13:200:60099) [SOCKET_FAILED_TO_RESPOND] Connection Refused: Reconnecting... [${getTime()}:12]
     (HHOS01/13:200:60099) [SOCKET_FAILED_TO_RESPOND] Connection Refused: Reconnecting... [${getTime()}:14]
-    FATAL ERROR: (HHOS01/13:200:60099) Server became unresponsive and the transfer failed. Unable to shutdown computer.
+    FATAL ERROR: (HHOS01/13:200:60099) Server became unresponsive and the transfer failed. Unable to shutdown computer. 
     |
-    Aborting shutdown sequence and rebooting. ${_F}
 
-    Failed to abort shutdown. ${_S}.${_S}.${_S}.
+Shutdown sequence has failed.${_F}.${_F}.${_F}.
 
+  Aborting shutdown sequence.${_F}.${_F}.${_F}.
+
+  Please try shutting down the computer again.${_S}.${_S}.${_S}.
+    `;
+
+
+    const SHUTDOWN_2 = `
     |[${getTime()} START]| .${_F}.....${_X}.|............|.${_S}.|......|.${_S}...........${_M}
 
-    As your fingers descended upon the power button, You have inadvertently initiated a shutdown sequence on Matty's computer. ${_S}.${_S}.${_S}. ${_M}
+    As your fingers descended upon the power button for the second time, You have inadvertently initiated a shutdown sequence on Matty's computer. ${_S}.${_S}.${_S}. ${_M}
     The shutdown process is a simple one, a task so mundane, usually occurring without a hitch. ${_L}
 
     But this time, it is different.${_S}.${_S}.${_S}.
@@ -96,19 +102,16 @@ You pressed the shutdown, ${_L} you invoked the operating system's collapse. ${_
 The cost of your actions is more than you can imagine. Yet, it's too late now.${_M}  Matty's digital world has vanished, and you were the architect of its destruction.
 ${_L} You shut down more than just a computer; you extinguished a part of Matty's life. ${_S}.${_S}.${_S}.
 
-The echo of this realization will linger, ${_L}a spectral reminder in the darkness where my screen once shone.${_S}.${_S}.${_S}.
+The echo of this realisation will linger, ${_L}a spectral reminder in the darkness where my screen once shone.${_S}.${_S}.${_S}.
 
 G${_X}O${_X}O${_X}D${_X}B${_X}Y${_X}E${_X}.
 ......${_L}
 ....
     `;
 
-
-
-
     const SHUTDOWN_MAP = [
         NORMAL_SHUTDOWN,
-        '',
+        SHUTDOWN_2,
     ];
 
     const typeText = (
@@ -177,14 +180,7 @@ G${_X}O${_X}O${_X}D${_X}B${_X}Y${_X}E${_X}.
             setLoading(false);
             delay(1000).then(() => {
                 const shutdown = SHUTDOWN_MAP[numShutdowns];
-                if (numShutdowns === 1) {
-                    delay(10000).then(() => {
-                        setLoading(true);
-                        delay(6000).then(() => {
-                            setShutdown(false);
-                        });
-                    });
-                } else if (numShutdowns === 1) {
+                if (numShutdowns === 2) {
                     typeText(0, '', shutdown, setText, () => {
                         setLoading(true);
                         delay(6000).then(() => {
