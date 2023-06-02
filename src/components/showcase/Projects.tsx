@@ -131,20 +131,20 @@ const styles: StyleSheetCSS = {
         alignItems: 'center',
     },
     credevIcon: {
-        width: 96,
-        height: 96,
+        width: 128,
+        height: 128,
     },
     bevelIcon: {
-        width: 96,
-        height: 96,
+        width: 128,
+        height: 128,
     },
     arrowIcon: {
         width: 48,
         height: 48,
     },
     coinbitsIcon: {
-        width: 96,
-        height: 96,
+        width: 128,
+        height: 128,
     },
 };
 
