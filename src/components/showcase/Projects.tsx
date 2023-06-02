@@ -86,14 +86,14 @@ const Projects: React.FC<ProjectsProps> = (props) => {
                     icon={bevel}
                     iconStyle={styles.bevelIcon}
                     title="Bevel"
-                    subtitle="WEB HOSTING COMPANY"
+                    subtitle="WEBHOSTING COMPANY"
                     route="bevel"
                 />
                 <ProjectBox
                     icon={coinbits}
                     iconStyle={styles.coinbitsIcon}
                     title="Coinbits"
-                    subtitle="CRYPTOCURRENCY EXCHANGE PLATFORM"
+                    subtitle="CRYPTO EXCHANGE"
                     route="coinbits"
                 />
             </div>
@@ -131,20 +131,20 @@ const styles: StyleSheetCSS = {
         alignItems: 'center',
     },
     credevIcon: {
-        width: 56,
-        height: 56,
+        width: 96,
+        height: 96,
     },
     bevelIcon: {
-        width: 48,
-        height: 48,
+        width: 96,
+        height: 96,
     },
     arrowIcon: {
         width: 48,
         height: 48,
     },
     coinbitsIcon: {
-        width: 21 * 2,
-        height: 37 * 2,
+        width: 96,
+        height: 96,
     },
 };
 
