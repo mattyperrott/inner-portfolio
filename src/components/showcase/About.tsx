@@ -13,9 +13,9 @@ const About: React.FC<AboutProps> = (props) => {
             <h3>I'm Matty P</h3>
             <br />
             <div className="text-block">
-                <p>
+                <p><strong>
                 As a digital designer and developer, my work is an intersection of creativity and technology, driven by a deep understanding of user-centric design, responsiveness, and performance.
-                </p>
+                    </strong></p>
                 <br />
             </div>
 
@@ -40,14 +40,25 @@ const About: React.FC<AboutProps> = (props) => {
                   With a firm grasp on popular designing tools and coding languages, and a continuous drive for learning new technologies,
                   I have built a comprehensive portfolio that reflects a blend of eye-catching aesthetics and functionality.
                   Over the years, I have honed my skills by immersing myself in an array of freelance projects and collaborations, resulting in a versatile skill set that spans across web design and development, branding, graphic design, marketing, and software engineering - all without a traditional degree.
-
                     </p>
+                        <br />
                     <p>
                       I am a blend of a creative and logical thinker. My creativity sparks innovative ideas, while my logical side ensures their feasibility and alignment with any business objective.
                      I believe this balance is essential in creating digital solutions that are not only visually stunning but also technically robust.
                     </p>
                         <br />
+                        <p>
+                  The desire to create meaningful and engaging digital interactions has been the north star guiding my career progression.
+                  My work is characterised by meticulous attention to detail, commitment to design ethics, and an ability to translate client requirements into visually compelling and functional designs.
+                </p>
+                        <br />
+<p>
+                      I've created diverse websites, meticulously balancing aesthetic appeal and user-centric functionality.
+                      With a keen eye for branding, I've helped businesses establish distinctive identities that truly resonate with their target audiences.
+                      My proficiency in graphic design and marketing allows me to create compelling visuals and strategies that captivate audiences and drive results.
+I've designed and executed various successful digital marketing campaigns, leveraging my knowledge of search engine optimisation and marketing, as well as using social media to drive engagement and conversions.
 
+                        </p>
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
@@ -58,26 +69,7 @@ const About: React.FC<AboutProps> = (props) => {
                         </p>
                     </div>
                 </div>
-
-
-
-
-
-            <div className="text-block">
-                <p>
-                  As a Melbournian, I draw inspiration from my vibrant surroundings and multicultural city, translating my experiences into digital mediums.
-                  The desire to create meaningful and engaging digital interactions has been the north star guiding my career progression.
-                  My work is characterised by meticulous attention to detail, commitment to design ethics, and an ability to translate client requirements into visually compelling and functional designs.
-                </p>
-                 <p>
-                      I've created diverse websites, meticulously balancing aesthetic appeal and user-centric functionality.
-                      With a keen eye for branding, I've helped businesses establish distinctive identities that truly resonate with their target audiences.
-                      My proficiency in graphic design and marketing allows me to create compelling visuals and strategies that captivate audiences and drive results.
-I've designed and executed various successful digital marketing campaigns, leveraging my knowledge of search engine optimisation and marketing, as well as using social media to drive engagement and conversions.
-
-                        </p>
-                <br />
-                </div>
+            <br />
                 <br />
                 <p>
                   Every challenge I undertake is an opportunity to learn, to improve, and to create something remarkable.
