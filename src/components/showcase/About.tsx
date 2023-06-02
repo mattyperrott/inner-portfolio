@@ -13,9 +13,9 @@ const About: React.FC<AboutProps> = (props) => {
             <h3>I'm Matty P</h3>
             <br />
             <div className="text-block">
-                <p><strong>
+                <h4>
                 As a digital designer and developer, my work is an intersection of creativity and technology, driven by a deep understanding of user-centric design, responsiveness, and performance.
-                    </strong></p>
+                </h4>
                 <br />
             </div>
 
@@ -44,14 +44,10 @@ const About: React.FC<AboutProps> = (props) => {
                         <br />
                     <p>
                       I am a blend of a creative and logical thinker. My creativity sparks innovative ideas, while my logical side ensures their feasibility and alignment with any business objective.
-                     I believe this balance is essential in creating digital solutions that are not only visually stunning but also technically robust.
+                     I believe this balance is essential in creating digital solutions that are not only visually stunning but also technically robust. My work is characterised by meticulous attention to detail, commitment to design ethics, and an ability to translate client requirements into visually compelling and functional designs.
                     </p>
                         <br />
-                        <p>
-                  The desire to create meaningful and engaging digital interactions has been the north star guiding my career progression.
-                  My work is characterised by meticulous attention to detail, commitment to design ethics, and an ability to translate client requirements into visually compelling and functional designs.
-                </p>
-                        <br />
+                    
 <p>
                       I've created diverse websites, meticulously balancing aesthetic appeal and user-centric functionality.
                       With a keen eye for branding, I've helped businesses establish distinctive identities that truly resonate with their target audiences.
@@ -64,7 +60,7 @@ I've designed and executed various successful digital marketing campaigns, lever
                         <img src={meNow} style={styles.image} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 2:</b> Me
+                                <b>Figure 1:</b> Me
                             </sub>
                         </p>
                     </div>
