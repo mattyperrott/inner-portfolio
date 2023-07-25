@@ -26,10 +26,10 @@ const Home: React.FC<HomeProps> = (props) => {
                     text="SKILLS"
                 />
              //   <Link
-                  //  containerStyle={styles.link}
-                   // to="projects"
-                 //   text="PROJECTS"
-              //  />
+             //  containerStyle={styles.link}
+             // to="projects"
+             //   text="PROJECTS"
+             //  />
                 <Link
                     containerStyle={styles.link}
                     to="contact"
