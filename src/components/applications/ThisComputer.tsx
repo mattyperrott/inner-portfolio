@@ -6,12 +6,12 @@ import useInitialWindowSize from '../../hooks/useInitialWindowSize';
 export interface ThisComputerProps extends WindowAppProps {}
 
 const ThisComputerApp: React.FC<ThisComputerProps> = (props) => {
-const { initWidth, initHeight } = useInitialWindowSize({ margin: 175 });
+const { initWidth, initHeight } = useInitialWindowSize({ margin: 150 });
     
 return (
         <Window
-            top={24}
-            left={56}
+            top={36}
+            left={84}
             width={initWidth}
             height={initHeight}
             windowBarIcon="computerSmall"
