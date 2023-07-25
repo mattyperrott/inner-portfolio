@@ -23,24 +23,24 @@ const APPLICATIONS: {
         component: React.FC<ExtendedWindowAppProps<any>>;
     };
 } = {
-    // computer: {
-    //     key: 'computer',
-    //     name: 'This Computer',
-    //     shortcutIcon: 'computerBig',
-    //     component: ThisComputer,
-    // },
+ computer: {
+        key: 'computer',
+       name: 'My Portfolio',
+        shortcutIcon: 'computerBig',
+         component: ThisComputer,
+   },
     showcase: {
         key: 'showcase',
-        name: 'My Showcase',
+        name: 'About Me',
         shortcutIcon: 'showcaseIcon',
         component: ShowcaseExplorer,
     },
-    trail: {
-        key: 'trail',
-        name: 'The Oregon Trail',
-        shortcutIcon: 'trailIcon',
-        component: OregonTrail,
-    },
+   // trail: {
+     //   key: 'trail',
+       // name: 'The Oregon Trail',
+      //  shortcutIcon: 'trailIcon',
+       // component: OregonTrail,
+  //  },
     doom: {
         key: 'doom',
         name: 'Doom',
@@ -98,7 +98,7 @@ const Desktop: React.FC<DesktopProps> = (props) => {
         });
 
         newShortcuts.forEach((shortcut) => {
-            if (shortcut.shortcutName === 'My Showcase') {
+            if (shortcut.shortcutName === 'My Portfolio') {
                 shortcut.onOpen();
             }
         });
