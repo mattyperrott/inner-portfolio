@@ -1,5 +1,5 @@
 import React from 'react';
-// import DesktopShortcut from '../os/DesktopShortcut';
+import DesktopShortcut from '../os/DesktopShortcut';
 import Window from '../os/Window';
 import useInitialWindowSize from '../../hooks/useInitialWindowSize';
 
@@ -27,14 +27,14 @@ return (
                     width="100%"
                     height="100%"
                 />
-                { <div style={}>
-                  //  <DesktopShortcut
-                  //      icon="computerBig"
-                  //      invertText
-                    //    shortcutName={'Computer Details'}
-                    //    onOpen={() => {}}
-                   // />
-                </div> }
+                   {/* <div style={}>
+                    <DesktopShortcut
+                        icon="computerBig"
+                        invertText
+                        shortcutName={'Computer Details'}
+                        onOpen={() => {}}
+                    />
+                </div> */}
             </div>
         </Window>
     );
