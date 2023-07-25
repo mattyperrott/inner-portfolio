@@ -1,16 +1,19 @@
 import React from 'react';
 import DesktopShortcut from '../os/DesktopShortcut';
 import Window from '../os/Window';
+import useInitialWindowSize from '../../hooks/useInitialWindowSize';
 
 export interface ThisComputerProps extends WindowAppProps {}
 
 const ThisComputerApp: React.FC<ThisComputerProps> = (props) => {
-    return (
+const { initWidth, initHeight } = useInitialWindowSize({ margin: 100 });
+    
+return (
         <Window
-            top={20}
-            left={20}
-            width={600}
-            height={400}
+            top={24}
+            left={56}
+            width={initWidth}
+            height={initHeight}
             windowBarIcon="computerSmall"
             windowTitle="This Computer"
             closeWindow={props.onClose}
