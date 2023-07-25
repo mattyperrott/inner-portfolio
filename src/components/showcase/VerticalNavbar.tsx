@@ -28,7 +28,7 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
         return () => {};
     }, [location.pathname]);
 
-    return !isHome ? (
+return !isHome ? (
         <div style={styles.navbar}>
             <div style={styles.header}>
                 <h1 style={styles.headerText}>MATTYP</h1>
@@ -42,37 +42,37 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
                     to="skills"
                     text="SKILLS"
                 />
-              //  <Link
-               //     containerStyle={Object.assign(
-                //        {},
-                //        styles.link,
-                //        projectsExpanded && styles.expandedLink
-              //      )}
-               //     to="projects"
-              //      text="PROJECTS"
-            //    />
-             //   {
-             //       // if current path contains projects
-             //       projectsExpanded && (
-             //           <div style={styles.insetLinks}>
-            //                <Link
-            //                    containerStyle={styles.insetLink}
-            //                    to="projects/credev"
-            //                    text="CREDEV"
-            //                />
-             //               <Link
-            //                    containerStyle={styles.insetLink}
-             //                   to="projects/bevel"
-             //                   text="BEVEL"
-             //               />
-             //               <Link
-             //                   containerStyle={styles.insetLink}
-              //                  to="projects/coinbits"
-              //                  text="COINBITS"
-             //               />
-              //          </div>
-               //     )
-              //  }
+                <Link
+                    containerStyle={Object.assign(
+                        {},
+                        styles.link,
+                        projectsExpanded && styles.expandedLink
+                    )}
+                    to="projects"
+                    text="PROJECTS"
+                />
+                {
+                    // if current path contains projects
+                    projectsExpanded && (
+                        <div style={styles.insetLinks}>
+                            <Link
+                                containerStyle={styles.insetLink}
+                                to="projects/credev"
+                                text="CREDEV"
+                            />
+                            <Link
+                                containerStyle={styles.insetLink}
+                                to="projects/bevel"
+                                text="BEVEL"
+                            />
+                            <Link
+                                containerStyle={styles.insetLink}
+                                to="projects/coinbits"
+                                text="COINBITS"
+                            />
+                        </div>
+                    )
+                }
                 <Link
                     containerStyle={styles.link}
                     to="contact"
