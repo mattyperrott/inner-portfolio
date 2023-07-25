@@ -6,7 +6,7 @@ import useInitialWindowSize from '../../hooks/useInitialWindowSize';
 export interface ThisComputerProps extends WindowAppProps {}
 
 const ThisComputerApp: React.FC<ThisComputerProps> = (props) => {
-const { initWidth, initHeight } = useInitialWindowSize({ margin: 100 });
+const { initWidth, initHeight } = useInitialWindowSize({ margin: 175 });
     
 return (
         <Window
