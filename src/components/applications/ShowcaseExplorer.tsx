@@ -6,9 +6,9 @@ import Window from '../os/Window';
 import Skills from '../showcase/Skills';
 import Projects from '../showcase/Projects';
 import Contact from '../showcase/Contact';
-import CredevProjects from '../showcase/projects/Credev';
-import BevelProjects from '../showcase/projects/Bevel';
-import CoinbitsProjects from '../showcase/projects/Coinbits';
+// import CredevProjects from '../showcase/projects/Credev';
+// import BevelProjects from '../showcase/projects/Bevel';
+// import CoinbitsProjects from '../showcase/projects/Coinbits';
 import VerticalNavbar from '../showcase/VerticalNavbar';
 import useInitialWindowSize from '../../hooks/useInitialWindowSize';
 
@@ -37,17 +37,17 @@ const ShowcaseExplorer: React.FC<ShowcaseExplorerProps> = (props) => {
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/skills" element={<Skills />} />
-                        <Route path="/projects" element={<Projects />} />
-                        <Route path="/contact" element={<Contact />} />
-                        <Route
-                            path="/projects/credev"
-                            element={<CredevProjects />}
-                        />
-                        <Route
-                            path="/projects/bevel"
-                            element={<BevelProjects />}
-                        />
-                        <Route path="/projects/coinbits" element={<CoinbitsProjects />} />
+                         <Route path="/contact" element={<Contact />} />
+                 // <Route path="/projects" element={<Projects />} />
+                // <Route
+               //    path="/projects/credev"
+                        //    element={<CredevProjects />}
+                      //  />
+                       // <Route
+                       //     path="/projects/bevel"
+                       //     element={<BevelProjects />}
+                       // />
+                      //  <Route path="/projects/coinbits" element={<CoinbitsProjects />} />
                     </Routes>
                 </div>
             </Router>
