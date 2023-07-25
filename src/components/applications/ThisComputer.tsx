@@ -10,7 +10,7 @@ const { initWidth, initHeight } = useInitialWindowSize({ margin: 150 });
     
 return (
         <Window
-            top={36}
+            top={48}
             left={84}
             width={initWidth}
             height={initHeight}
