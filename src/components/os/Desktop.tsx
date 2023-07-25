@@ -2,7 +2,6 @@ import React, { useCallback, useEffect, useState } from 'react';
 import Colors from '../../constants/colors';
 import ShowcaseExplorer from '../applications/ShowcaseExplorer';
 import Doom from '../applications/Doom';
-import OregonTrail from '../applications/OregonTrail';
 import ShutdownSequence from './ShutdownSequence';
 import ThisComputer from '../applications/ThisComputer';
 import Toolbar from './Toolbar';
@@ -35,12 +34,7 @@ const APPLICATIONS: {
         shortcutIcon: 'showcaseIcon',
         component: ShowcaseExplorer,
     },
-   // trail: {
-     //   key: 'trail',
-       // name: 'The Oregon Trail',
-      //  shortcutIcon: 'trailIcon',
-       // component: OregonTrail,
-  //  },
+  
     doom: {
         key: 'doom',
         name: 'Doom',
