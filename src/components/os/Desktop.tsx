@@ -4,6 +4,7 @@ import ShowcaseExplorer from '../applications/ShowcaseExplorer';
 import Doom from '../applications/Doom';
 import ShutdownSequence from './ShutdownSequence';
 import ThisComputer from '../applications/ThisComputer';
+import msPaint from '../applications/msPaint';
 import Toolbar from './Toolbar';
 import DesktopShortcut, { DesktopShortcutProps } from './DesktopShortcut';
 import Scrabble from '../applications/Scrabble';
@@ -34,7 +35,14 @@ const APPLICATIONS: {
         shortcutIcon: 'showcaseIcon',
         component: ShowcaseExplorer,
     },
-  
+
+    paint: {
+        key: 'paint',
+        name: 'MS Paint',
+        shortcutIcon: 'msPaintIcon',
+        component: msPaint,
+    },
+
     doom: {
         key: 'doom',
         name: 'Doom',
