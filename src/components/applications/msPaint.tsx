@@ -3,9 +3,9 @@ import DesktopShortcut from '../os/DesktopShortcut';
 import Window from '../os/Window';
 import useInitialWindowSize from '../../hooks/useInitialWindowSize';
 
-export interface msPaintProps extends WindowAppProps {}
+export interface MsPaintProps extends WindowAppProps {}
 
-const msPaintApp: React.FC<msPaintProps> = (props) => {
+const MsPaintApp: React.FC<MsPaintProps> = (props) => {
 const { initWidth, initHeight } = useInitialWindowSize({ margin: 150 });
 
 return (
@@ -40,4 +40,4 @@ return (
     );
 };
 
-export default msPaintApp;
+export default MsPaintApp;
