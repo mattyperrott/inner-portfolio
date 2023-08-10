@@ -3,9 +3,9 @@ import DesktopShortcut from '../os/DesktopShortcut';
 import Window from '../os/Window';
 import useInitialWindowSize from '../../hooks/useInitialWindowSize';
 
-export interface ThisComputerProps extends WindowAppProps {}
+export interface msPaintProps extends WindowAppProps {}
 
-const ThisComputerApp: React.FC<ThisComputerProps> = (props) => {
+const msPaintApp: React.FC<msPaintProps> = (props) => {
 const { initWidth, initHeight } = useInitialWindowSize({ margin: 150 });
 
 return (
@@ -14,24 +14,24 @@ return (
             left={84}
             width={initWidth}
             height={initHeight}
-            windowBarIcon="computerSmall"
-            windowTitle="My Portfolio"
+            windowBarIcon="msPaintSmall"
+            windowTitle="Microsoft Paint"
             closeWindow={props.onClose}
             onInteract={props.onInteract}
             minimizeWindow={props.onMinimize}
         >
             <div className="site-page">
                 <iframe
-                    src="https://me.mattyp.au/"
-                    title="MattyP"
+                    src="https://paint.js.org/"
+                    title="MS Paint"
                     width="100%"
                     height="100%"
                 />
                    {/* <div style={}>
                     <DesktopShortcut
-                        icon="computerBig"
+                        icon="msPaintIcon"
                         invertText
-                        shortcutName={'Computer Details'}
+                        shortcutName={'MS Paint'}
                         onOpen={() => {}}
                     />
                 </div> */}
@@ -40,4 +40,4 @@ return (
     );
 };
 
-export default ThisComputerApp;
+export default msPaintApp;
