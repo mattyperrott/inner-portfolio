@@ -29,12 +29,6 @@ const APPLICATIONS: {
         shortcutIcon: 'computerBig',
          component: ThisComputer,
    },
-    showcase: {
-        key: 'showcase',
-        name: 'About Me',
-        shortcutIcon: 'showcaseIcon',
-        component: ShowcaseExplorer,
-    },
 
     paint: {
         key: 'paint',
